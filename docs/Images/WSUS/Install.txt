@@ -1,0 +1,9 @@
+Powershell als Admin oeffnen 
+
+Install-WindowsFeature -Name UpdateServices-Ui
+Install-WindowsFeature -Name UpdateServices -IncludeManagementTools
+
+"C:\Program Files\Update Services\Tools\wsusutil.exe" postinstall CONTENT_DIR=W:\WSUS
+
+
+& 'C:\Program Files\Update Services\Tools\WsusUtil.exe' postinstall CONTENT_DIR=W:\WSUS
