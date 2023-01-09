@@ -105,7 +105,7 @@ Alle 3 können unter den Options im Wsus nachträglich angepasst werden
 8. Nun muss der Client neu gestartet werden, damit die Policy Richtlinien aktiv sind
 
 ### Welche Powershell-Cmdlets gibt es, um den WSUS-Client zu konfigurieren/steuern
-Dies ist leider das einzige Powershell-Cmdlet
+Dies ist leider das einzige Powershell-Cmdlet: (WindowsUpdate)[https://learn.microsoft.com/en-us/powershell/module/windowsupdate/?view=windowsserver2022-ps]
 
 ## Testing und Reporting
 ### Testen Sie die Update-Funktionalität
